@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <H1>Hello world!</H1>
+      <H1>TEST</H1>
     </>
   );
 }
