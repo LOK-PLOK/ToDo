@@ -25,3 +25,31 @@ A todo application built using the PERN stack(PostgreSQL, Express, React,and Nod
 
 5. Deployment:
    - To be planned
+
+
+## How to:
+``` bash
+## clone the repository
+git clone https://github.com/LOK-PLOK/ToDo.git
+
+## Change directory to Todo
+cd Todo
+
+## in /Backend and /client you should npm i on the terminal
+npm i 
+
+## also make sure you have postgresql on your machine and copy paste the database and table in the db.js file
+
+## inside the .env file
+   DB_USER= <your username> ## default is postgres
+   DB_PASSWORD= <your password>
+   DB_HOST=localhost # - this is default
+   DB_PORT=5432      # - this is default
+   DB_DATABASE=perntodo ## the name of the database
+
+## last step is to have 2 terminals , 1 for the /Backend and 1 for the /client
+
+## in the /Backend 
+npm run dev
+## in the /client
+npm run start
