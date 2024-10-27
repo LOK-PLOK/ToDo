@@ -1,11 +1,11 @@
-import { ThemeProvider } from "@/components/theme-provider"
-import {ModeToggle} from "@/components/mode-toggle"
+import Layout from "@/components/layout"
+import { Outlet } from "react-router-dom"
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <ModeToggle/>
-    </ThemeProvider>
+    <Layout>
+      <Outlet/>
+    </Layout>
   )
 }
 
