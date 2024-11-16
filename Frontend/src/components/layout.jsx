@@ -1,8 +1,8 @@
 import { Outlet } from "react-router-dom";
 import { ThemeProvider } from "@/components/theme-provider"
 import {ModeToggle} from "@/components/mode-toggle"
-import Dashboard from "@/dasboard";
-import Navbar from "@/dasboard/Navbar";
+import Cardcontainter from "@/pages/dasboard";
+import Navbar from "@/pages/dasboard/Navbar";
 
 // eslint-disable-next-line react/prop-types
 export default function Layout({ children }) {
@@ -11,7 +11,7 @@ export default function Layout({ children }) {
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
 
           <Navbar></Navbar>
-          <Dashboard></Dashboard>
+          <Cardcontainter></Cardcontainter>
 
       </ThemeProvider>
     </>

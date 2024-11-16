@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <>
       <div className="flex justify-between px-10 py-4">
-            <H2>Todo Cards</H2>
+            <H1>Todo Cards</H1>
             <div><ModeToggle></ModeToggle></div>
       </div>
     </>
