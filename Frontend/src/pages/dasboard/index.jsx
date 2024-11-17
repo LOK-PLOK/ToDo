@@ -31,7 +31,7 @@ export default function Cardcontainter() {
           <Dialog>
             <DialogTrigger asChild>
               <button>
-                <Card className="w-64 h-32 flex justify-center items-center bg-inherit transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-zinc-900">
+                <Card className="w-72 h-64 flex justify-center items-center bg-inherit transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-zinc-900">
                   <span className="text-4xl">+</span>
                 </Card>
               </button>
